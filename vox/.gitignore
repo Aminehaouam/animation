@@ -1,5 +1,9 @@
 render/silent.mp4
-build/
+v2/silent.mp4
+v2/o/
+v2/om/
+v2/audio/*_orig.wav
 src/trailer.mp4
+build/
 __pycache__/
 *.pyc
