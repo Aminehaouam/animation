@@ -1,0 +1,5 @@
+render/silent.mp4
+build/
+src/trailer.mp4
+__pycache__/
+*.pyc
