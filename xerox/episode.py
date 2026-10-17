@@ -339,9 +339,9 @@ def S5(t):
                 draw_ransom(P, s_, x + gj[0], y + gj[1], SZ, seed, t, tt, stagger=.08)
             x += wtot + 60
     if t >= 28.85:
-        pp = sp(t, 28.85, .22); bm = rotate(rect_mask(int(520 * pp) + 10, 200, 4, seed=77, torn=True), -7)
-        stamp(P, bm, 1180 + gj[0], 640 + gj[1])
-        tm = text_mask('SOLD', 'vandal_stencil', 190, rot=-7, rough=.4, seed=8); P.ink(tm, 1230 + gj[0], 630 + gj[1], s=min(1, pp * 2))
+        pp = sp(t, 28.85, .22); bm = rotate(rect_mask(int(440 * pp) + 10, 170, 4, seed=77, torn=True), -7)
+        stamp(P, bm, 1440 + gj[0], 470 + gj[1])
+        tm = text_mask('SOLD', 'vandal_stencil', 160, rot=-7, rough=.4, seed=8); P.ink(tm, 1475 + gj[0], 462 + gj[1], s=min(1, pp * 2))
     ts_ = 26.45
     if t >= ts_:
         a = sp(t, ts_, .2)
