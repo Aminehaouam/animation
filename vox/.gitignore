@@ -7,3 +7,4 @@ src/trailer.mp4
 build/
 __pycache__/
 *.pyc
+v2/*.mp4

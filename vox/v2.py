@@ -76,10 +76,11 @@ def vo_time(s, name):
 def dlg(s, P, t, gj):
     for (text, a, b, keys) in s['subs']:
         ta = s['t0'] + (a - s['src'][0]); tb = s['t0'] + (b - s['src'][0])
+        nxt = [x for x in s['subs'] if x[1] > a]; tend = tb + .45 if not nxt else min(tb + .45, s['t0'] + (nxt[0][1] - s['src'][0]) - .03)
         words = text.split()
         # word times spread across the phrase (dialogue pacing)
         n = len(words); wts = [ta + (tb - ta) * (i / n) for i in range(n)]
-        sub_words(P, t, [(w, wt, (w in keys)) for w, wt in zip(words, wts)], ta - .02, tb + .45, gj, reveal=True)
+        sub_words(P, t, [(w, wt, (w in keys)) for w, wt in zip(words, wts)], ta - .02, tend, gj, reveal=True)
 
 # ---------------- segment layouts
 def P_new(i): return Page(i % 2, i % 4, i % 2)
@@ -93,7 +94,7 @@ def draw_card_and_pop(P, s, t, cx, cy, w, rot, img, imh, m, zp, border=16, popk=
     z, fx, fy = zp
     zi = zoom_view(img, z, fx, fy)
     footage_card(P, grade(zi, .78), cx, cy, w, rot, border=border)
-    if m is not None and popk:
+    if m is not None and popk and .06 < float(m.mean()) < .9:
         zh = zoom_view(imh, z, fx, fy); zm = zoom_view(m, z, fx, fy)
         pop(P, grade(zh, .88), zm, cx, cy - 4, w * popk, rot)
 
