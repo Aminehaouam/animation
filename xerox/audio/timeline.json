@@ -1,0 +1,444 @@
+{
+ "total": 30.0,
+ "voice": "bm_george",
+ "speed": 0.93,
+ "lines": [
+  {
+   "start": 0.55,
+   "dur": 3.8797916666666667,
+   "text": "You are what you own. At least, that's the lie he's been sold.",
+   "sil": [
+    [
+     1.18,
+     1.46
+    ],
+    [
+     1.99,
+     2.25
+    ]
+   ],
+   "words": [
+    {
+     "w": "You",
+     "s": 0.55,
+     "e": 0.776,
+     "key": false
+    },
+    {
+     "w": "are",
+     "s": 0.776,
+     "e": 1.04,
+     "key": false
+    },
+    {
+     "w": "what",
+     "s": 1.04,
+     "e": 1.28,
+     "key": false
+    },
+    {
+     "w": "you",
+     "s": 1.28,
+     "e": 1.504,
+     "key": false
+    },
+    {
+     "w": "own.",
+     "s": 1.504,
+     "e": 1.73,
+     "key": true
+    },
+    {
+     "w": "At",
+     "s": 2.01,
+     "e": 2.196,
+     "key": false
+    },
+    {
+     "w": "least,",
+     "s": 2.196,
+     "e": 2.54,
+     "key": false
+    },
+    {
+     "w": "that's",
+     "s": 2.8,
+     "e": 3.17,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 3.17,
+     "e": 3.393,
+     "key": false
+    },
+    {
+     "w": "lie",
+     "s": 3.393,
+     "e": 3.68,
+     "key": true
+    },
+    {
+     "w": "he's",
+     "s": 3.68,
+     "e": 3.95,
+     "key": false
+    },
+    {
+     "w": "been",
+     "s": 3.95,
+     "e": 4.22,
+     "key": false
+    },
+    {
+     "w": "sold.",
+     "s": 4.22,
+     "e": 4.43,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 5.049791666666667,
+   "dur": 4.691791666666667,
+   "text": "He lives in a catalogue. Every object is a decision he never made.",
+   "sil": [
+    [
+     1.46,
+     1.8900000000000001
+    ]
+   ],
+   "words": [
+    {
+     "w": "He",
+     "s": 5.05,
+     "e": 5.243,
+     "key": false
+    },
+    {
+     "w": "lives",
+     "s": 5.243,
+     "e": 5.54,
+     "key": false
+    },
+    {
+     "w": "in",
+     "s": 5.54,
+     "e": 5.8,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 5.8,
+     "e": 5.931,
+     "key": false
+    },
+    {
+     "w": "catalogue.",
+     "s": 5.931,
+     "e": 6.51,
+     "key": true
+    },
+    {
+     "w": "Every",
+     "s": 6.94,
+     "e": 7.38,
+     "key": false
+    },
+    {
+     "w": "object",
+     "s": 7.38,
+     "e": 7.82,
+     "key": false
+    },
+    {
+     "w": "is",
+     "s": 7.82,
+     "e": 8.04,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 8.04,
+     "e": 8.23,
+     "key": false
+    },
+    {
+     "w": "decision",
+     "s": 8.23,
+     "e": 8.8,
+     "key": true
+    },
+    {
+     "w": "he",
+     "s": 8.8,
+     "e": 8.994,
+     "key": false
+    },
+    {
+     "w": "never",
+     "s": 8.994,
+     "e": 9.399,
+     "key": true
+    },
+    {
+     "w": "made.",
+     "s": 9.399,
+     "e": 9.742,
+     "key": false
+    }
+   ]
+  },
+  {
+   "start": 10.361583333333334,
+   "dur": 3.482083333333333,
+   "text": "So he builds something violent, anonymous, and real.",
+   "sil": [
+    [
+     1.67,
+     1.99
+    ],
+    [
+     2.66,
+     2.83
+    ]
+   ],
+   "words": [
+    {
+     "w": "So",
+     "s": 10.362,
+     "e": 10.536,
+     "key": false
+    },
+    {
+     "w": "he",
+     "s": 10.536,
+     "e": 10.692,
+     "key": false
+    },
+    {
+     "w": "builds",
+     "s": 10.692,
+     "e": 11.082,
+     "key": false
+    },
+    {
+     "w": "something",
+     "s": 11.082,
+     "e": 11.608,
+     "key": false
+    },
+    {
+     "w": "violent,",
+     "s": 11.608,
+     "e": 12.032,
+     "key": true
+    },
+    {
+     "w": "anonymous,",
+     "s": 12.352,
+     "e": 13.022,
+     "key": true
+    },
+    {
+     "w": "and",
+     "s": 13.192,
+     "e": 13.485,
+     "key": false
+    },
+    {
+     "w": "real.",
+     "s": 13.485,
+     "e": 13.844,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 14.463666666666667,
+   "dur": 4.913666666666667,
+   "text": "But the rebellion becomes another brand, with rules, uniforms and a leader.",
+   "sil": [
+    [
+     2.0,
+     2.38
+    ],
+    [
+     3.21,
+     3.39
+    ]
+   ],
+   "words": [
+    {
+     "w": "But",
+     "s": 14.464,
+     "e": 14.673,
+     "key": false
+    },
+    {
+     "w": "the",
+     "s": 14.673,
+     "e": 14.794,
+     "key": false
+    },
+    {
+     "w": "rebellion",
+     "s": 14.794,
+     "e": 15.344,
+     "key": false
+    },
+    {
+     "w": "becomes",
+     "s": 15.344,
+     "e": 15.766,
+     "key": false
+    },
+    {
+     "w": "another",
+     "s": 15.766,
+     "e": 16.161,
+     "key": false
+    },
+    {
+     "w": "brand,",
+     "s": 16.161,
+     "e": 16.464,
+     "key": true
+    },
+    {
+     "w": "with",
+     "s": 16.844,
+     "e": 17.224,
+     "key": false
+    },
+    {
+     "w": "rules,",
+     "s": 17.224,
+     "e": 17.674,
+     "key": true
+    },
+    {
+     "w": "uniforms",
+     "s": 17.854,
+     "e": 18.457,
+     "key": true
+    },
+    {
+     "w": "and",
+     "s": 18.457,
+     "e": 18.714,
+     "key": false
+    },
+    {
+     "w": "a",
+     "s": 18.714,
+     "e": 18.901,
+     "key": false
+    },
+    {
+     "w": "leader.",
+     "s": 18.901,
+     "e": 19.377,
+     "key": true
+    }
+   ]
+  },
+  {
+   "start": 20.727333333333334,
+   "dur": 5.022875,
+   "text": "Fight Club isn't asking whether you're free. It's asking who sold you your freedom.",
+   "sil": [
+    [
+     2.38,
+     2.82
+    ]
+   ],
+   "words": [
+    {
+     "w": "Fight",
+     "s": 20.727,
+     "e": 21.067,
+     "key": false
+    },
+    {
+     "w": "Club",
+     "s": 21.067,
+     "e": 21.357,
+     "key": false
+    },
+    {
+     "w": "isn't",
+     "s": 21.357,
+     "e": 21.627,
+     "key": false
+    },
+    {
+     "w": "asking",
+     "s": 21.627,
+     "e": 22.03,
+     "key": false
+    },
+    {
+     "w": "whether",
+     "s": 22.03,
+     "e": 22.456,
+     "key": false
+    },
+    {
+     "w": "you're",
+     "s": 22.456,
+     "e": 22.832,
+     "key": false
+    },
+    {
+     "w": "free.",
+     "s": 22.832,
+     "e": 23.107,
+     "key": true
+    },
+    {
+     "w": "It's",
+     "s": 23.547,
+     "e": 23.839,
+     "key": false
+    },
+    {
+     "w": "asking",
+     "s": 23.839,
+     "e": 24.327,
+     "key": false
+    },
+    {
+     "w": "who",
+     "s": 24.327,
+     "e": 24.487,
+     "key": false
+    },
+    {
+     "w": "sold",
+     "s": 24.487,
+     "e": 24.768,
+     "key": true
+    },
+    {
+     "w": "you",
+     "s": 24.768,
+     "e": 25.007,
+     "key": false
+    },
+    {
+     "w": "your",
+     "s": 25.007,
+     "e": 25.267,
+     "key": false
+    },
+    {
+     "w": "freedom.",
+     "s": 25.267,
+     "e": 25.75,
+     "key": true
+    }
+   ]
+  }
+ ]
+}

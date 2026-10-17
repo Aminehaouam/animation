@@ -1,0 +1,9 @@
+[
+ {"file":"coffee.png","source":"scikit-image data.coffee (Pikolo Espresso Bar, R. Michetti)","license":"CC0"},
+ {"file":"coins.png","source":"scikit-image data.coins (Brooklyn Museum Collection)","license":"No known copyright restrictions"},
+ {"file":"brick.png","source":"scikit-image data.brick (CC0Textures Bricks25)","license":"CC0"},
+ {"file":"gravel.png","source":"scikit-image data.gravel (CC0Textures Gravel04)","license":"CC0"},
+ {"file":"astronaut.png","source":"scikit-image data.astronaut (NASA Great Images)","license":"Public domain"},
+ {"file":"procedural crowd/conveyor/line-art","source":"generated in code (episode.py)","license":"original"},
+ {"file":"music + sfx","source":"synthesised in audio.py","license":"original / CC0"}
+]

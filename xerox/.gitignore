@@ -1,0 +1,5 @@
+xerox/render/silent.mp4
+xerox/build/
+__pycache__/
+*.pyc
+xerox/audio/line*.wav

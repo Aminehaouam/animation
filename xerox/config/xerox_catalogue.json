@@ -1,0 +1,145 @@
+{
+  "name": "XEROX CATALOGUE",
+  "version": "1.0",
+  "description": "Corporate catalogue, photocopied, vandalised, turned into an underground zine. Reusable across episodes.",
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+  "palette": {
+    "paper_rgb": [
+      244,
+      240,
+      227
+    ],
+    "ink_rgb": [
+      20,
+      18,
+      18
+    ],
+    "pink_rgb": [
+      232,
+      160,
+      168
+    ],
+    "pink_hex": "#E8A0A8",
+    "rule": "pink is the ONLY colour; only as misregistered spot blocks/stamps, never a full-frame wash",
+    "ransom_tiles": [
+      [
+        250,
+        248,
+        240
+      ],
+      [
+        238,
+        228,
+        205
+      ],
+      [
+        214,
+        212,
+        206
+      ],
+      [
+        20,
+        18,
+        18
+      ]
+    ]
+  },
+  "misregistration_px": {
+    "pink_dx": 9,
+    "pink_dy": -6,
+    "shadow_dx": 14,
+    "shadow_dy": 16
+  },
+  "fonts": {
+    "catalogue": "/usr/share/fonts/opentype/inter/Inter-ExtraBold.otf",
+    "catalogue_regular": "/usr/share/fonts/opentype/inter/Inter-Medium.otf",
+    "vandal_marker": "/usr/share/fonts/truetype/humor-sans/Humor-Sans.ttf",
+    "vandal_stencil": "/usr/share/fonts/opentype/bebas-neue/BebasNeue-Regular.otf",
+    "ransom_pool": [
+      "/usr/share/fonts/opentype/courier-prime/Courier Prime Bold.otf",
+      "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
+      "/usr/share/fonts/opentype/bebas-neue/BebasNeue-Regular.otf",
+      "/usr/share/fonts/truetype/humor-sans/Humor-Sans.ttf",
+      "/usr/share/fonts/truetype/gnutypewriter/GNUTypewriter.ttf",
+      "/usr/share/fonts/truetype/liberation/LiberationSerif-BoldItalic.ttf"
+    ]
+  },
+  "textures": {
+    "paper": [
+      "assets/textures/paper_a.png",
+      "assets/textures/paper_b.png"
+    ],
+    "toner": [
+      "assets/textures/toner_a.png",
+      "assets/textures/toner_b.png"
+    ],
+    "lid": [
+      "left",
+      "top",
+      "right",
+      "bottom"
+    ],
+    "burn": [
+      "assets/textures/burn_0.png",
+      "assets/textures/burn_1.png",
+      "assets/textures/burn_2.png"
+    ],
+    "tape": "assets/textures/tape.png",
+    "staple": "assets/textures/staple.png"
+  },
+  "photocopy": {
+    "halftone_cell_px": 7,
+    "halftone_angle_deg": 45,
+    "crush": [
+      1.28,
+      -0.06
+    ],
+    "toner_noise": 0.14
+  },
+  "motion": {
+    "graphics_fps": 10,
+    "background_fps": 30,
+    "graphics_jitter_px": 2.0,
+    "graphics_jitter_deg": 0.25,
+    "easing": "outBack_stepped",
+    "camera": "slow push 1.00->1.10 + drift; cutouts parallax x1.8"
+  },
+  "transitions": {
+    "paper_slap": {
+      "dur_s": 0.4,
+      "notes": "page drops from above, shake on landing, shadow on old page"
+    },
+    "copier_flash": {
+      "dur_s": 0.45,
+      "notes": "white bar scan + flash, scene swaps at peak"
+    },
+    "torn_page_reveal": {
+      "dur_s": 0.55,
+      "notes": "diagonal ragged tear, curled paper edge, hard shadow"
+    },
+    "staple_pop": {
+      "dur_s": 0.4,
+      "notes": "page pops in with a scale bounce, staple sprite + flash"
+    }
+  },
+  "film_damage": {
+    "only_in_transitions": true,
+    "burn_marks": 3,
+    "flicker_amp": 0.09
+  },
+  "captions": {
+    "font": "vandal_marker",
+    "size": 68,
+    "highlight": "pink_block_behind_key_words",
+    "strip": "torn off-white paper"
+  },
+  "audio": {
+    "voice": "kokoro bm_george (local, free)",
+    "music": "synthesised original pad, CC0",
+    "drop_before_last_line_s": 1.0
+  }
+}
